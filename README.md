@@ -16,7 +16,18 @@ Anyway here is the photos of me making this board https://imgur.com/gallery/9tko
 
 ## Update
 ### 28/12/2020
-I have finished the v2 pcb. Just have to order a ptototype from JLCpcb.
+I have finished the v2 pcb. Just have to order a ptototype from JLCpcb. This is gonna be multilayout hostwap so the best plate for this pcb is plate generated from swillkb for plate mount stab. If you prefer pcb mount stab I will still release the pcb mount stab version but you have to desolder some of uneeded hotswap that interfre with the stab for your choosen layout. 
+
+## Firmware
+The firmware will use [ZMK](https://zmkfirmware.dev/) and QMK (if you don't care about license). you can choose between those two firmware. 
+
+## Features
+- Dual mode wireless and wired
+- rotary encoder
+- oled display
+- rgb underglow
+- hotswap
+- multilayout
 
 ## Version 1
 ![](https://i.imgur.com/QaL3Zr7.jpg)
