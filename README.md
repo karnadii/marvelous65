@@ -1,7 +1,18 @@
 # Marvelous65
 A 65% wireless hotswap keyboard with Rotary encoder, OLED display and RGB underglow.
 
-![https://media.discordapp.net/attachments/587004793004884086/784158786448785408/IMG_20201204_034412.jpg?width=1312&height=656](https://media.discordapp.net/attachments/587004793004884086/784158786448785408/IMG_20201204_034412.jpg?width=1312&height=656)
+## V1
+![img](https://i.imgur.com/Np1dnCb.jpg)
+![](https://i.imgur.com/QaL3Zr7.jpg)
+![](https://i.imgur.com/UT9RIDT.jpg)
+![](https://i.imgur.com/qvQjEH1.jpg)
+## V2
+![](https://i.imgur.com/FA5Elsy.jpg)
+![img](https://i.imgur.com/hqNk5MB.jpg)
+
+## V1 vs V2
+![](https://i.imgur.com/0wT6L0c.jpg)
+
 
 This keyboard is inspired by luantty2's Candy BLE (https://github.com/luantty2/nRF52840-instruction). When I first saw that I was like "Beautiful! Marvelous!" but that would be nice to make that in 65%. So With no basic knowledge of electronic I brave myself to learn Kicad with the guide of https://wiki.ai03.com/books/pcb-design/page/pcb-guide-part-1---preparations. Basically this is just an nrfmicro 1.4 by Joric embedded in PCB.
 I also learn some basic Fusion 360 to make a keyboard case and plate. Since my printer is ender 3 pro, I have to split everything in two. You might notice there is a litle gap in the keyboard, that is where I split my plate.
@@ -29,11 +40,6 @@ The firmware will use [ZMK](https://zmkfirmware.dev/) and QMK (if you don't care
 - hotswap
 - multilayout
 
-## Version 1
-![](https://i.imgur.com/QaL3Zr7.jpg)
-![](https://i.imgur.com/UT9RIDT.jpg)
-![](https://i.imgur.com/qvQjEH1.jpg)
-
 ## PCB (v2)
 ![](https://i.imgur.com/TqCldaq.png)
 ![](https://i.imgur.com/ZD6vsq7.png)
@@ -46,3 +52,5 @@ try it in [KLE](http://www.keyboard-layout-editor.com/##@_name=marvelous65%3B&@_
 ![](https://i.imgur.com/s04cfbT.png)
 ![](https://i.imgur.com/OeKKgvj.png)
 ![](https://i.imgur.com/71my9OR.png)
+
+
