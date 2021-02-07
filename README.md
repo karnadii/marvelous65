@@ -56,3 +56,16 @@ try it in [KLE](http://www.keyboard-layout-editor.com/##@_name=marvelous65%3B&@_
 ![](https://i.imgur.com/71my9OR.png)
 
 
+## Marvelous65 Series
+I am designing a split version and an alice like layout too. all almost have the same feature. RGB underglow, oled, rotary, wireless.
+
+### Split
+https://github.com/karnadii/marvelous65-split
+![](https://raw.githubusercontent.com/karnadii/marvelous65-split/main/Images/case.png)
+![](https://raw.githubusercontent.com/karnadii/marvelous65-split/main/Images/Marvelous65%20Split%20Front.png)
+![](https://raw.githubusercontent.com/karnadii/marvelous65-split/main/Images/Marvelous65%20Split%20Back.png)
+
+### Ergo (alice like)
+PCB only at the moment.
+![](https://i.imgur.com/Yn2VEGR.png)
+![](https://i.imgur.com/31N24Pw.png)
