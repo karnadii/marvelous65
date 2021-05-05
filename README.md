@@ -1,71 +1,88 @@
-# Marvelous65
+# Marvelous65 Keyboard Series
 A 65% wireless hotswap keyboard with Rotary encoder, OLED display and RGB underglow.
-
-## V1
-![img](https://i.imgur.com/Np1dnCb.jpg)
-![](https://i.imgur.com/QaL3Zr7.jpg)
-![](https://i.imgur.com/UT9RIDT.jpg)
-![](https://i.imgur.com/qvQjEH1.jpg)
-## V2
+![](https://i.imgur.com/dIZWNfV.jpeg)
+## Marvelous65
 ![](https://i.imgur.com/FA5Elsy.jpg)
-![img](https://i.imgur.com/hqNk5MB.jpg)
+## Marvelous65 Ergo
+![](https://i.imgur.com/RbpFRcj.jpeg)
 
-## V1 vs V2
-![](https://i.imgur.com/0wT6L0c.jpg)
+## Marvelous65 Split
+![](https://cdn.discordapp.com/attachments/406032987243806721/809588674832498698/IMG_20210212_074515.jpg)
 
 
-This keyboard is inspired by luantty2's Candy BLE (https://github.com/luantty2/nRF52840-instruction). When I first saw that I was like "Beautiful! Marvelous!" but that would be nice to make that in 65%. So With no basic knowledge of electronic I brave myself to learn Kicad with the guide of https://wiki.ai03.com/books/pcb-design/page/pcb-guide-part-1---preparations. Basically this is just an nrfmicro 1.4 by Joric embedded in PCB.
-I also learn some basic Fusion 360 to make a keyboard case and plate. Since my printer is ender 3 pro, I have to split everything in two. You might notice there is a litle gap in the keyboard, that is where I split my plate.
-
-This is my first PCB and I make a lot of stupid design decision, I will share it the PCB case and plate design once I done with the revison. I plan to make it multi layout with split backspace, 6.5u spacebar and split space.
-with this small board actually it makes sense with split spacebar cause I need more modifier (2 Fn). But if this is gonna be multi layout there will be no hotswap. maybe i will make it two version. The split spacebar is 2u, 1.25 and 2.75u. I choose 2u rather than 2.25 because I consider the keycap availability.
+This keyboard is inspired by luantty2's Candy BLE (https://github.com/luantty2/nRF52840-instruction). When I first saw that I was like "Beautiful! Marvelous!" but that would be nice to make that in 65%. So With no basic knowledge of electronic I brave myself to learn Kicad with the guide of https://wiki.ai03.com/books/pcb-design/page/pcb-guide-part-1---preparations. Basically this is just an nrfmicro 1.4 by Joric embedded in PCB. I also learn some basic Fusion 360 to make a keyboard case and plate.
 
 When I finish designing this, I realize I am not he first one to design this, there is someone in zfrontier forum already done it, it is called Rainbow65, check it out https://www.zfrontier.com/app/flow/e1rpMAd9Nz75.
 and there is someone planning an IC for similar layout and feature. 
 
 Anyway here is the photos of me making this board https://imgur.com/gallery/9tkokVy
 
-## Update
-### 28/12/2020
-I have finished the v2 pcb. Just have to order a ptototype from JLCpcb. This is gonna be multilayout hostwap so the best plate for this pcb is plate generated from swillkb for plate mount stab. If you prefer pcb mount stab I will still release the pcb mount stab version but you have to desolder some of uneeded hotswap that interfre with the stab for your choosen layout. 
-
-### 23/01/2020
-added case and plate design to the repo. this case and plate still need a revision. this is not the final version. you guys can try it and see if you like it.
 ## Firmware
-The firmware will use [ZMK](https://zmkfirmware.dev/) and QMK (if you don't care about license). you can choose between those two firmware. 
+The firmware will use [ZMK](https://zmkfirmware.dev/).
 
 ## Features
 - Dual mode wireless and wired
 - rotary encoder
-- oled display
+- oled display 
 - rgb underglow
-- hotswap
-- multilayout
+- hotswap (except split version)
+- multilayout (except ergo version)
 
-## PCB (v2)
-![](https://i.imgur.com/TqCldaq.png)
-![](https://i.imgur.com/ZD6vsq7.png)
+## PCB 
+the marvelous65 standard and split version I route it manually. the ergo version I semi auto route it with freerouting. I know a little about electronic, if you have some suggestion or want to coorect the PCB/schematic feel free to make a PR or open an issue.
+### Marvelous65
+![](Images/Marvelou65%20Revise%20v2-front.png)
+![](Images/Marvelou65%20Revise%20v2-back.png)
 
-## Layout (v2)
+### Marvelous65 Ergo
+![](Images/Marvelou65-ergo-front.png)
+![](Images/Marvelou65-ergo-back.png)
+
+### Marvelous65 Split
+![](Images/Marvelous65%20Split-front.png)
+![](Images/Marvelous65%20Split-back.png)
+
+## Layout
+### Marvelous65
 ![](https://i.imgur.com/o3pjJZ5.png)
-try it in [KLE](http://www.keyboard-layout-editor.com/##@_name=marvelous65%3B&@_x:3%3B&=~%0A%60&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0&=%2F_%0A-&=+%0A%2F=&_a:6&w:2%3B&=Back&_x:0.25%3B&=enc1&_x:1&a:7%3B&=&=%3B&@_x:3&a:4&w:1.5%3B&=Tab&=Q&=W&=E&=R&=T&=Y&=U&=I&=O&=P&=%7B%0A%5B&=%7D%0A%5D&_w:1.5%3B&=%7C%0A%5C&_x:3&a:7&w:1.25&h:2&w2:1.5&h2:1&x2:-0.25%3B&=%3B&@_a:4&w:1.25&w2:1.75&l:true%3B&=Caps%20Lock&_x:1.75&w:1.75%3B&=Caps%20Lock&=A&=S&=D&=F&=G&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'&_a:6&w:2.25%3B&=Enter&_x:2&a:7%3B&=%3B&@_w:1.25%3B&=&=&_x:0.75&a:6&w:2.25%3B&=Shift&_a:4%3B&=Z&=X&=C&=V&=B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&_a:6&w:1.75%3B&=Shift%3B&@_y:-0.75&x:17.25&a:7%3B&=%E2%86%91%3B&@_y:-0.25&x:3&a:6&w:1.25%3B&=Ctrl&_w:1.25%3B&=Win&_w:1.25%3B&=Alt&_a:7&w:6.25%3B&=&_a:6%3B&=Alt&=Fn&=Ctrl%3B&@_y:-0.75&x:16.25&a:7%3B&=%E2%86%90&=%E2%86%93&=%E2%86%92%3B&@_x:6.75&w:2.25%3B&=&_w:1.25%3B&=&_w:2.75%3B&=&_w:1.5%3B&=&_w:1.5%3B&=) 
+try it in [KLE](http://www.keyboard-layout-editor.com/##@_name=marvelous65%3B&@_x:3%3B&=~%0A%60&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0&=%2F_%0A-&=+%0A%2F=&_a:6&w:2%3B&=Back&_x:0.25%3B&=enc1&_x:1&a:7%3B&=&=%3B&@_x:3&a:4&w:1.5%3B&=Tab&=Q&=W&=E&=R&=T&=Y&=U&=I&=O&=P&=%7B%0A%5B&=%7D%0A%5D&_w:1.5%3B&=%7C%0A%5C&_x:3&a:7&w:1.25&h:2&w2:1.5&h2:1&x2:-0.25%3B&=%3B&@_a:4&w:1.25&w2:1.75&l:true%3B&=Caps%20Lock&_x:1.75&w:1.75%3B&=Caps%20Lock&=A&=S&=D&=F&=G&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'&_a:6&w:2.25%3B&=Enter&_x:2&a:7%3B&=%3B&@_w:1.25%3B&=&=&_x:0.75&a:6&w:2.25%3B&=Shift&_a:4%3B&=Z&=X&=C&=V&=B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&_a:6&w:1.75%3B&=Shift%3B&@_y:-0.75&x:17.25&a:7%3B&=%E2%86%91%3B&@_y:-0.25&x:3&a:6&w:1.25%3B&=Ctrl&_w:1.25%3B&=Win&_w:1.25%3B&=Alt&_a:7&w:6.25%3B&=&_a:6%3B&=Alt&=Fn&=Ctrl%3B&@_y:-0.75&x:16.25&a:7%3B&=%E2%86%90&=%E2%86%93&=%E2%86%92%3B&@_x:6.75&w:2.25%3B&=&_w:1.25%3B&=&_w:2.75%3B&=&_w:1.5%3B&=&_w:1.5%3B&=) (Support ISO, stplit backspace, split spacebar, stepped caps)
 
-## Case (v2)
-![](https://i.imgur.com/s04cfbT.png)
-![](https://i.imgur.com/OeKKgvj.png)
-![](https://i.imgur.com/71my9OR.png)
+### Marvelous65 Ergo
+![](Images/marvelous-ergo-layout.png)
+try it in [KLE](http://www.keyboard-layout-editor.com/##@_name=Marvelous65%20Ergo%3B&@_y:0.2&x:2.75%3B&=%2F@%0A2&_x:8.75%3B&=%2F_%0A-%3B&@_y:-0.95&x:0.75%3B&=~%0A%60&=!%0A1&_x:10.75%3B&=+%0A%2F=&_a:6&w:2%3B&=Backspace&_x:0.75%3B&=ENC%3B&@_y:-0.050000000000000044&x:12.25&a:4%3B&=P%3B&@_y:-0.9500000000000002&x:0.5&w:1.5%3B&=Tab&=Q&_x:10.25%3B&=%7B%0A%5B&=%7D%0A%5D&_w:1.5%3B&=%7C%0A%5C%3B&@_x:0.25&w:1.75%3B&=Caps%20Lock&=A&_x:9.75%3B&=%2F:%0A%2F%3B&=%22%0A'&_a:6&w:2.25%3B&=Enter%3B&@_w:2.25%3B&=Shift&_a:4%3B&=Z&_x:9%3B&=%3E%0A.&=%3F%0A%2F%2F&_a:6&w:1.75%3B&=Shift%3B&@_y:-0.75&x:16.25&a:7%3B&=%E2%86%91%3B&@_y:-0.25&a:6&w:1.25%3B&=Ctrl&_w:1.25%3B&=Win&_x:10&a:7&w:1.25%3B&=&_w:1.25%3B&=%3B&@_y:-0.75&x:15.25%3B&=%E2%86%90&=%E2%86%93&=%E2%86%92%3B&@_r:12&rx:3.05&ry:4.35&y:-1.0999999999999996&x:0.20000000000000018&a:4%3B&=X&=C&=V&=B%3B&@_x:0.20000000000000018&a:7&w:1.25%3B&=&_w:2.75%3B&=%3B&@_rx:3.15&ry:3.35&y:-1.1&x:-0.1499999999999999&a:4%3B&=S&=D&=F&=G%3B&@_rx:3.25&ry:2.35&y:-1.1&x:-0.25%3B&=W&=E&=R&=T%3B&@_rx:3.35&ry:1.35&y:-1.1&x:0.3999999999999999%3B&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6%3B&@_r:-12&rx:12.1&y:-1.1&x:-3.5999999999999996%3B&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0%3B&@_rx:12.2&ry:2.35&y:-1.1&x:-3.9499999999999993%3B&=Y&=U&=I&=O%3B&@_rx:12.3&ry:3.35&y:-1.1&x:-3.5500000000000007%3B&=H&=J&=K&=L%3B&@_rx:12.4&ry:4.35&y:-1.0999999999999996&x:-4.15&a:7%3B&=&_a:4%3B&=N&=M&=%3C%0A,%3B&@_rx:12.525&ry:5.5415&y:-1.2915&x:-4.025&a:7&w:2.25%3B&=&_w:1.25%3B&=) (Support split backspace and stepped caps) 
 
+### Marvelous65 Split
+![](Images/marvelous65-split-layout.png)
+try in in [KLE](http://www.keyboard-layout-editor.com/##@_name=Marvelous%20split%3B&@_x:18.25&a:6&w:2%3B&=Backspace%3B&@_x:2.25%3B&=L%2F_ENC&_x:0.25&a:4%3B&=~%0A%60&=!%0A1&=%2F@%0A2&=%23%0A3&=$%0A4&=%25%0A5&=%5E%0A6&_x:1.75%3B&=%2F&%0A7&=*%0A8&=(%0A9&=)%0A0&=%2F_%0A-&=+%0A%2F=&_a:7%3B&=&=&_x:0.25&a:6%3B&=R%2F_ENC%3B&@_x:3.5&a:4&w:1.5%3B&=Tab&=Q&=W&=E&=R&=T&_x:1.75%3B&=Y&=U&=I&=O&=P&=%7B%0A%5B&=%7D%0A%5D&_w:1.5%3B&=%7C%0A%5C&_x:2.75&a:7&w:1.25&h:2&w2:1.5&h2:1&x2:-0.25%3B&=%3B&@_a:6&w:1.25&w2:1.75&l:true%3B&=Cap&_x:2.25&a:4&w:1.75%3B&=Caps%20Lock&=A&=S&=D&=F&=G&_x:1.75%3B&=H&=J&=K&=L&=%2F:%0A%2F%3B&=%22%0A'&_a:6&w:2.25%3B&=Enter&_x:1.75&a:7%3B&=%3B&@_a:6&w:2.25%3B&=Shift&_x:1.25&a:7&w:1.25%3B&=&=&_a:4%3B&=Z&=X&=C&=V&=B&_x:1.75%3B&=N&=M&=%3C%0A,&=%3E%0A.&=%3F%0A%2F%2F&_a:6&w:1.75%3B&=Shift%3B&@_y:-0.75&x:19.5&a:7%3B&=%E2%86%91%3B&@_y:-0.25&x:3.5&a:6&w:1.25%3B&=Ctrl&_w:1.25%3B&=Win&_w:1.25%3B&=Alt&_a:7&w:2.25%3B&=&_w:1.25%3B&=&_x:1.75&w:2.75%3B&=&_a:6%3B&=Alt&=Fn&=Ctrl%3B&@_y:-0.75&x:18.5&a:7%3B&=%E2%86%90&=%E2%86%93&=%E2%86%92%3B&@_x:15.25&w:1.5%3B&=&_w:1.5%3B&=) (Support ISO, stplit backspace, split spacebar, stepped caps)
 
-## Marvelous65 Series
-I am designing a split version and an alice like layout too. all almost have the same feature. RGB underglow, oled, rotary, wireless.
+## Case
+All the case is all 3d printed, except the ergo version have acrylic version case. The case have 3 part, top, middle and bottom. the top and bottom using PLA with 20% infill, while the middle use transparent PLA with 100% infill(to diffuse the underglow RGB) I only know some basic 3d knowledge, so if my case is not to your liking you can design your own case and make a PR or keep it to yourself. Here some rendered Image from fusion 360.
 
-### Split
-https://github.com/karnadii/marvelous65-split
-![](https://raw.githubusercontent.com/karnadii/marvelous65-split/main/Images/case.png)
-![](https://raw.githubusercontent.com/karnadii/marvelous65-split/main/Images/Marvelous65%20Split%20Front.png)
-![](https://raw.githubusercontent.com/karnadii/marvelous65-split/main/Images/Marvelous65%20Split%20Back.png)
+### Marvelous65
+![](https://i.imgur.com/kWaMtP9.png)
+### Marvelous65 Ergo
+#### Acrylic case
+![](https://media.discordapp.net/attachments/405716387592667136/822803002922106920/marvelous65_acrylic_case_2021-Mar-20_11-47-22AM-000_CustomizedView4419458162.png?width=1440&height=527)
+#### 3d printed case
+![](https://media.discordapp.net/attachments/405716387592667136/816909060640866315/5c420c4b-81d4-4f6b-97f5-fd4ebf97db4e.PNG?width=1440&height=527)
 
-### Ergo (alice like)
-PCB only at the moment.
-![](https://i.imgur.com/Yn2VEGR.png)
-![](https://i.imgur.com/31N24Pw.png)
+### Marvelous65 Split
+I am too lazy while designing this one, so I only design ANSI layout case. The plate is integrated to the case, so if you want different layout you want to make another case.
+![](Images/case.png)
+![](Images/case2.png)
+![](Images/case3.png)
+
+## GIF
+![](Images/tnWCBiLK.mp4)
+![](Images/t0sfN7c.mp4)
+
+## TODO
+- add acrylic case version
+- add multi layout case for split version
+- fix ergo version plate (misaligned one screw hole)
+- marvelous65 ergo 3d printed case split version
+
+## Reference 
+- nrfmicro 1.4 https://github.com/joric/nrfmicro/wiki
+- nice60 pcb https://github.com/Nicell/nice60
+- ZMK firmware https://github.com/zmkfirmware/zmk
