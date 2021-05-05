@@ -73,8 +73,12 @@ I am too lazy while designing this one, so I only design ANSI layout case. The p
 ![](Images/case3.png)
 
 ## GIF
-![](Images/tnWCBiLK.mp4)
-![](Images/t0sfN7c.mp4)
+
+https://user-images.githubusercontent.com/18657277/117118259-c4ab1200-adba-11eb-80a2-d7a4a54a5487.mp4
+
+https://user-images.githubusercontent.com/18657277/117118099-8dd4fc00-adba-11eb-8657-396213f3611c.mp4
+
+
 
 ## TODO
 - add acrylic case version
