@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name kbd)(type KiCad)(uri ${KIPRJMOD}/library/kbd/kicad-footprints/kbd.pretty)(options "")(descr ""))
+  (lib (name keyswitches)(type KiCad)(uri ${KIPRJMOD}/library/keyswitches.pretty)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type KiCad)(uri ${KIPRJMOD}/library/random-keyboard-parts.pretty)(options "")(descr ""))
+  (lib (name MX_Only)(type KiCad)(uri ${KIPRJMOD}/library/MX_Alps_Hybrid-master/MX_Only.pretty)(options "")(descr ""))
+  (lib (name Panelization)(type KiCad)(uri /Users/karnadi/Downloads/kicad_libs-master/Panelization.pretty)(options "")(descr ""))
+  (lib (name mte_panelizing)(type KiCad)(uri /Users/karnadi/Downloads/KiCad-Libraries-main/mte_panelizing.pretty)(options "")(descr ""))
+)

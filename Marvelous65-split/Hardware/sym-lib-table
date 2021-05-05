@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name kbd)(type Legacy)(uri ${KIPRJMOD}/library/kbd/kicad-symbols/kbd.lib)(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type Legacy)(uri "${KIPRJMOD}/library/random-keyboard-parts.pretty/Schematic Library/random-keyboard-parts.lib")(options "")(descr ""))
+  (lib (name MX_Alps_Hybrid)(type Legacy)(uri "${KIPRJMOD}/library/MX_Alps_Hybrid-master/Schematic Library/MX_Alps_Hybrid.lib")(options "")(descr ""))
+  (lib (name Marvelous65-Split-rescue)(type Legacy)(uri "${KIPRJMOD}/Marvelous65 Split-rescue.lib")(options "")(descr ""))
+)

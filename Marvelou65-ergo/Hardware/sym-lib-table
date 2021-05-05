@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Marvelou65-ergo-rescue)(type Legacy)(uri ${KIPRJMOD}/Marvelou65-ergo-rescue.lib)(options "")(descr ""))
+)
