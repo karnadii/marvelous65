@@ -85,6 +85,7 @@ https://user-images.githubusercontent.com/18657277/117118099-8dd4fc00-adba-11eb-
 - add multi layout case for split version
 - fix ergo version plate (misaligned one screw hole)
 - marvelous65 ergo 3d printed case split version
+- add BOM files
 
 ## Reference 
 - nrfmicro 1.4 https://github.com/joric/nrfmicro/wiki
