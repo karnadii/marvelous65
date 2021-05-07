@@ -1,0 +1,8 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_MARVELOUS65_SPLIT_LEFT
+	def_bool $(shields_list_contains,marvelous65_split_left)
+
+config SHIELD_MARVELOUS65_SPLIT_RIGHT
+	def_bool $(shields_list_contains,marvelous65_split_right)
