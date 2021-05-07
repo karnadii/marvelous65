@@ -97,6 +97,7 @@ See BOM file for JLCPCB in release page.
 - fix ergo version plate (misaligned one screw hole)
 - marvelous65 ergo 3d printed case split version
 - designing logo and silkscreen
+- add assembly guide
 
 ## Support Me
 Help me order prototype PCB for next revision
