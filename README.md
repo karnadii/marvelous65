@@ -87,7 +87,7 @@ https://user-images.githubusercontent.com/18657277/117118259-c4ab1200-adba-11eb-
 https://user-images.githubusercontent.com/18657277/117118099-8dd4fc00-adba-11eb-8657-396213f3611c.mp4
 
 ## BOM
-- TODO
+See BOM file for JLCPCB in release page. 
 
 
 
@@ -96,8 +96,12 @@ https://user-images.githubusercontent.com/18657277/117118099-8dd4fc00-adba-11eb-
 - add multi layout case for split version
 - fix ergo version plate (misaligned one screw hole)
 - marvelous65 ergo 3d printed case split version
-- add BOM files
 - designing logo and silkscreen
+
+## Support Me
+Help me order prototype PCB for next revision
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/V7V71MRSU)
 
 ## Reference 
 - nrfmicro 1.4 https://github.com/joric/nrfmicro/wiki
