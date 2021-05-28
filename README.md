@@ -87,8 +87,16 @@ https://user-images.githubusercontent.com/18657277/117118259-c4ab1200-adba-11eb-
 https://user-images.githubusercontent.com/18657277/117118099-8dd4fc00-adba-11eb-8657-396213f3611c.mp4
 
 ## BOM
-See BOM file for JLCPCB in release page. 
+See BOM file for JLCPCB in release page.
+also I added IBOM for reference when you will solder it yourself
 
+
+## Battery
+any lipo battery will do, i use 2.4 JST XH connector. it is better to use 3mm thickness battery.
+
+for the pcb [JST XH2.54 Right Angle Pin Header Connector 2P](https://www.aliexpress.com/item/33008489410.html?spm=a2g0o.productlist.0.0.3fc04e79tqtraW&algo_pvid=cc25e59e-b91b-4300-889b-37802f464f64&algo_expid=cc25e59e-b91b-4300-889b-37802f464f64-14&btsid=0bb0620316222031400651818ee7d1&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
+for battery [JST XH 2PIN male](https://www.aliexpress.com/item/32996835431.html?spm=a2g0o.productlist.0.0.52173629BM0hSB&algo_pvid=e2dc7462-9258-4ca2-80d9-968e44934c82&algo_expid=e2dc7462-9258-4ca2-80d9-968e44934c82-4&btsid=0bb0622f16222032556806705ee066&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_).
+All the battery that I purchase have no connector/socket, so I have to solder it myself. Be carefull when soldering, pay attention to the negative and positive of the battery.
 
 
 ## TODO

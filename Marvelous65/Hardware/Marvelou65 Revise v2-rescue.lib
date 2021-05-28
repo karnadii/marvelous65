@@ -1,0 +1,22 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# MX-NoLED-MX_Alps_Hybrid
+#
+DEF MX-NoLED-MX_Alps_Hybrid MX 0 40 Y Y 1 F N
+F0 "MX" -25 150 60 H V C CNN
+F1 "MX-NoLED-MX_Alps_Hybrid" -25 50 20 H V C CNN
+F2 "" -625 -25 60 H I C CNN
+F3 "" -625 -25 60 H I C CNN
+DRAW
+T 0 125 0 30 0 0 0 COL Normal 0 C C
+T 900 0 -75 30 0 0 0 ROW Normal 0 R C
+S -100 100 50 -50 0 0 0 N
+P 2 0 0 5 -50 -50 -50 50 N
+P 3 0 0 5 50 50 0 50 -50 75 N
+X COL 1 150 50 100 L 0 0 1 1 P
+X ROW 2 -50 -150 100 U 0 0 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

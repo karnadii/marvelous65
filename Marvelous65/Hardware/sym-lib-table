@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name nrfmicro)(type Legacy)(uri ${KIPRJMOD}/Lib/nrfmicro.lib)(options "")(descr ""))
+  (lib (name Marvelou65-Revise-v2-rescue)(type Legacy)(uri "${KIPRJMOD}/Marvelou65 Revise v2-rescue.lib")(options "")(descr ""))
 )
