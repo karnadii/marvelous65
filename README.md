@@ -91,7 +91,9 @@ See BOM file for JLCPCB in release page.
 also I added IBOM for reference when you will solder it yourself
 
 Marvelous65 IBOM https://karnadii.github.io/marvelous65/Marvelous65/Hardware/bom/ibom.html
+
 Marvelous65-ergo IBOM https://karnadii.github.io/marvelous65/Marvelous65-ergo/Hardware/bom/ibom.html
+
 Marvelous65-split IBOM https://karnadii.github.io/marvelous65/Marvelous65-split/Hardware/bom/ibom.html
 
 ## Battery
@@ -100,6 +102,10 @@ any lipo battery will do, i use 2.4 JST XH connector. it is better to use 3mm th
 for the pcb [JST XH2.54 Right Angle Pin Header Connector 2P](https://www.aliexpress.com/item/33008489410.html?spm=a2g0o.productlist.0.0.3fc04e79tqtraW&algo_pvid=cc25e59e-b91b-4300-889b-37802f464f64&algo_expid=cc25e59e-b91b-4300-889b-37802f464f64-14&btsid=0bb0620316222031400651818ee7d1&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_)
 for battery [JST XH 2PIN male](https://www.aliexpress.com/item/32996835431.html?spm=a2g0o.productlist.0.0.52173629BM0hSB&algo_pvid=e2dc7462-9258-4ca2-80d9-968e44934c82&algo_expid=e2dc7462-9258-4ca2-80d9-968e44934c82-4&btsid=0bb0622f16222032556806705ee066&ws_ab_test=searchweb0_0,searchweb201602_,searchweb201603_).
 All the battery that I purchase have no connector/socket, so I have to solder it myself. Be carefull when soldering, pay attention to the negative and positive of the battery.
+
+I am using this battery. Ignore the label the actual size is 3300mAh.
+![](https://cdn.discordapp.com/attachments/785533287049330729/816540649301344286/IMG_20210303_121958.jpg)
+![](https://cdn.discordapp.com/attachments/763848253996793856/815127805875847188/IMG_20210227_144510.jpg)
 
 
 ## TODO
