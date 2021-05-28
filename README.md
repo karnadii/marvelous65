@@ -90,6 +90,9 @@ https://user-images.githubusercontent.com/18657277/117118099-8dd4fc00-adba-11eb-
 See BOM file for JLCPCB in release page.
 also I added IBOM for reference when you will solder it yourself
 
+Marvelous65 IBOM https://karnadii.github.io/marvelous65/Marvelous65/Hardware/bom/ibom.html
+Marvelous65-ergo IBOM https://karnadii.github.io/marvelous65/Marvelous65-ergo/Hardware/bom/ibom.html
+Marvelous65-split IBOM https://karnadii.github.io/marvelous65/Marvelous65-split/Hardware/bom/ibom.html
 
 ## Battery
 any lipo battery will do, i use 2.4 JST XH connector. it is better to use 3mm thickness battery.
