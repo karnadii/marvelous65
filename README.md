@@ -9,6 +9,8 @@ A 65% wireless hotswap keyboard with Rotary encoder, OLED display and RGB underg
 ## Marvelous65 Split
 ![](https://cdn.discordapp.com/attachments/406032987243806721/809588674832498698/IMG_20210212_074515.jpg)
 
+# WARNING!!!
+**FOR ADVANCED USER ONLY!!, THIS IS A DIY KEYBOARD AND NO ONE SELL IT, BUILDING THIS KEYBOARD REQUIRE YOU TO ORDER THE PCB FROM PCB MANU, SOLDER ALL THE COMPONENT YOURSELF, MAKING YOUR OWN PLATE AND CASE YOURSELF. IF YOU ONLY KNOW HOW TO ASSEMBLY A KEYBOARD, THIS IS NOT FOR YOU.**
 
 This keyboard is inspired by luantty2's Candy BLE (https://github.com/luantty2/nRF52840-instruction). When I first saw that I was like "Beautiful! Marvelous!" but that would be nice to make that in 65%. So With no basic knowledge of electronic I brave myself to learn Kicad with the guide of https://wiki.ai03.com/. Basically this is just an nrfmicro 1.4 by Joric embedded in PCB. I also learn some basic Fusion 360 to make a keyboard case and plate.
 
